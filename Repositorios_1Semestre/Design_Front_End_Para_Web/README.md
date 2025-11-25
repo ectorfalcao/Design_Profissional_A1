@@ -1,6 +1,7 @@
 # 🎨 Design Front End para Web
 
 **Semestre:** 1º
+
 **Tecnologias:** HTML5, CSS, VS Code.
 
 ## 📝 Sobre a Disciplina
