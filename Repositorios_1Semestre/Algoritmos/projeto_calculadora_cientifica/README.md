@@ -41,6 +41,7 @@ graph TD;
     E --> G;
     G --> H[Grava no Arquivo .CSV];
     H --> C;
+```
 💻 Exemplo de Código (Persistência)
 Abaixo, um trecho de como o programa salva os dados formatados em CSV, tratando strings para evitar erros de formatação:
 code
@@ -66,6 +67,7 @@ void salvarHistoricoEmArquivo(){
     }
     fclose(arquivo);
 }
+
 🛠️ Bibliotecas Utilizadas
 <stdio.h>: I/O padrão e manipulação de arquivos.
 <stdlib.h>: malloc, free e controle de memória.
