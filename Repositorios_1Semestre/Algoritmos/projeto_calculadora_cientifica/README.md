@@ -68,12 +68,13 @@ void salvarHistoricoEmArquivo(){
     fclose(arquivo);
 }
 
-🛠️ Bibliotecas Utilizadas
+# 🛠️ Bibliotecas Utilizadas
 <stdio.h>: I/O padrão e manipulação de arquivos.
 <stdlib.h>: malloc, free e controle de memória.
 <math.h>: Biblioteca matemática robusta (pow, sqrt, sin, hypot, etc).
 <string.h>: Manipulação de textos para o histórico.
-🚀 Como Compilar e Executar
+
+# 🚀 Como Compilar e Executar
 Baixe o arquivo main.c.
 Abra o terminal na pasta do arquivo.
 Compilar (Linux/GCC):
@@ -87,4 +88,4 @@ Bash
 ./calculadora  # Linux/Mac
 calculadora.exe # Windows
 
-Desenvolvido por Ector Carvalho, Erick Bruno, Leonardo Teles, Talisom Izidoro
+# Desenvolvido por Ector Carvalho, Erick Bruno, Leonardo Teles, Talisom Izidoro
