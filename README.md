@@ -19,7 +19,7 @@ Abaixo estão listados os itens solicitados no checklist da avaliação, organiz
 Abaixo estão os links para os materiais e projetos desenvolvidos em cada unidade curricular:
 
 - 🎨 **Design Front End para Web**
-  - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Front_End_Para_web)
+  - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Front_End_Para_Web)
 
 - 🗄️ **Modelagem de Banco de Dados**
   - [Acessar Conteúdo](./Repositorios_1Semestre/Modelagem_BancoDados)
