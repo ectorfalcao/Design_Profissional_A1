@@ -86,4 +86,5 @@ code
 Bash
 ./calculadora  # Linux/Mac
 calculadora.exe # Windows
+
 Desenvolvido por Ector Carvalho, Erick Bruno, Leonardo Teles, Talisom Izidoro
