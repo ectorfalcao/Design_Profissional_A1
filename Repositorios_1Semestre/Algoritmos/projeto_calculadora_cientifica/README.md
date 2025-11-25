@@ -75,17 +75,17 @@ void salvarHistoricoEmArquivo(){
 <string.h>: Manipulação de textos para o histórico.
 
 # 🚀 Como Compilar e Executar
-Baixe o arquivo main.c.
-Abra o terminal na pasta do arquivo.
-Compilar (Linux/GCC):
-Necessário linkar a biblioteca math (-lm).
-code
-Bash
-gcc main.c -o calculadora -lm
-Executar:
-code
-Bash
-./calculadora  # Linux/Mac
-calculadora.exe # Windows
+* Baixe o arquivo main.c.
+* Abra o terminal na pasta do arquivo.
+* Compilar (Linux/GCC):
+* Necessário linkar a biblioteca math (-lm).
+* code
+* Bash
+* gcc main.c -o calculadora -lm
+* Executar:
+* code
+* Bash
+* ./calculadora  # Linux/Mac
+* calculadora.exe # Windows
 
 # Desenvolvido por Ector Carvalho, Erick Bruno, Leonardo Teles, Talisom Izidoro
