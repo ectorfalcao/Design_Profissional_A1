@@ -69,10 +69,10 @@ void salvarHistoricoEmArquivo(){
 }
 
 # 🛠️ Bibliotecas Utilizadas
-<stdio.h>: I/O padrão e manipulação de arquivos.
-<stdlib.h>: malloc, free e controle de memória.
-<math.h>: Biblioteca matemática robusta (pow, sqrt, sin, hypot, etc).
-<string.h>: Manipulação de textos para o histórico.
+* <stdio.h>: I/O padrão e manipulação de arquivos.
+* <stdlib.h>: malloc, free e controle de memória.
+* <math.h>: Biblioteca matemática robusta (pow, sqrt, sin, hypot, etc).
+* <string.h>: Manipulação de textos para o histórico.
 
 # 🚀 Como Compilar e Executar
 * Baixe o arquivo main.c.
