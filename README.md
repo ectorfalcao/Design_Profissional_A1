@@ -14,6 +14,21 @@ Este repositório foi criado como parte da **Avaliação A1** da disciplina de *
 Abaixo estão listados os itens solicitados no checklist da avaliação, organizados conforme as diretrizes da disciplina.
 
 ---
+## 📚 Repositórios das Disciplinas do 1º Semestre
+
+Abaixo estão os links para os materiais e projetos desenvolvidos em cada unidade curricular:
+
+- 🎨 **Design Front End para Web**
+  - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Front_End_Para_web)
+
+- 🗄️ **Modelagem de Banco de Dados**
+  - [Acessar Conteúdo](./Repositorios_1Semestre/Modelagem_BancoDados)
+
+- 🚀 **Design Profissional**
+  - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Profissional)
+
+- 💻 **Algoritmos e Programação**
+  - [Acessar Conteúdo](./Repositorios_1Semestre/Algoritmos)
 
 ## 🗂 Estrutura de Arquivos
 
@@ -33,18 +48,4 @@ DesignProfissional_A1
 │   └── Comunicacao/
 └── README.md (Este arquivo)
 
-## 📚 Repositórios das Disciplinas do 1º Semestre
 
-Abaixo estão os links para os materiais e projetos desenvolvidos em cada unidade curricular:
-
-- 🎨 **Design Front End para Web**
-  - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Front_End_Para_web)
-
-- 🗄️ **Modelagem de Banco de Dados**
-  - [Acessar Conteúdo](./Repositorios_1Semestre/Modelagem_BancoDados)
-
-- 🚀 **Design Profissional**
-  - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Profissional)
-
-- 💻 **Algoritmos e Programação**
-  - [Acessar Conteúdo](./Repositorios_1Semestre/Algoritmos)
