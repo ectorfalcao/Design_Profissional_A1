@@ -30,7 +30,6 @@ O código demonstra domínio sobre conceitos avançados de C:
 *   **Ponteiros e Malloc:** Utilizados nas funções de soma, subtração e multiplicação para criar arrays do tamanho exato que o usuário precisa, otimizando o uso de memória.
 *   **Modularização:** Funções específicas para cada operação matemática, mantendo o `main` limpo e focado no menu.
 *   **Manipulação de Arquivos (`FILE*`):** Leitura (`r`) e Escrita (`w`) de dados estruturados.
-
 ```mermaid
 graph TD;
     A[Início] -->|Lê CSV| B[Carregar Histórico p/ RAM];
