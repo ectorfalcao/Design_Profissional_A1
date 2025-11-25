@@ -38,6 +38,7 @@ Projeto_Bootstrap/
 ├── js                  #Java Script
 ├── imagens/                # Imagens do projeto
 └── README.md           # Documentação
+```
 🚀 Como Executar
 Baixe este repositório ou clone o projeto.
 Navegue até a pasta Projeto_Bootstrap.
