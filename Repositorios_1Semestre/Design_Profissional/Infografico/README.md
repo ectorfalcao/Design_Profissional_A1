@@ -10,7 +10,7 @@ Como futuros profissionais de tecnologia, é nossa responsabilidade entender o c
 
 ## 🖼️ O Infográfico Produzido
 
-![Infográfico Lixo Eletrônico](./infografico.png)
+![Infográfico Lixo Eletrônico](./infografico.jpg)
 
 ## 🌍 Tópicos Abordados
 
