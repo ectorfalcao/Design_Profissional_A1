@@ -49,4 +49,4 @@ Durante o desenvolvimento, pude compreender:
 * A importância do Mobile First na construção de layouts.
 * Como utilizar classes utilitárias (ex: m-5, p-3, text-center) para agilizar o desenvolvimento.
 * O funcionamento do sistema de 12 colunas para alinhar elementos.
-* Desenvolvido por Ector Falcão
+# Desenvolvido por Ector Falcão
