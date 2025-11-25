@@ -39,14 +39,14 @@ Projeto_Bootstrap/
 ├── imagens/                # Imagens do projeto
 └── README.md           # Documentação
 ```
-🚀 Como Executar
-Baixe este repositório ou clone o projeto.
-Navegue até a pasta Projeto_Bootstrap.
-Abra o arquivo index.html em qualquer navegador (Chrome, Edge, Firefox).
-Nota: É necessário conexão com a internet para carregar o Bootstrap via CDN.
-🧠 Aprendizados
+# 🚀 Como Executar
+* Baixe este repositório ou clone o projeto.
+* Navegue até a pasta Projeto_Bootstrap.
+* Abra o arquivo index.html em qualquer navegador (Chrome, Edge, Firefox).
+* Nota: É necessário conexão com a internet para carregar o Bootstrap via CDN.
+# 🧠 Aprendizados
 Durante o desenvolvimento, pude compreender:
-A importância do Mobile First na construção de layouts.
-Como utilizar classes utilitárias (ex: m-5, p-3, text-center) para agilizar o desenvolvimento.
-O funcionamento do sistema de 12 colunas para alinhar elementos.
-Desenvolvido por [SEU NOME]
+* A importância do Mobile First na construção de layouts.
+* Como utilizar classes utilitárias (ex: m-5, p-3, text-center) para agilizar o desenvolvimento.
+* O funcionamento do sistema de 12 colunas para alinhar elementos.
+* Desenvolvido por Ector Falcão
