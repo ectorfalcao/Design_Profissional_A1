@@ -59,7 +59,7 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
         *   📉 **Análise Bubble Sort:** Estudo de complexidade e tempo de CPU.
 
 ### 🗣️ Design Profissional
-> *Foco: Escrita técnica e sustentabilidade.*
+> *Foco: Escrita técnica, ética e profissionalismo.*
 
 *   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Comunicacao)
     *   **Destaques:**
