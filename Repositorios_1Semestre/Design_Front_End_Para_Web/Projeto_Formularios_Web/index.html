@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Trabalhando com Formulários WEB</h1>
+<div id="main">
+<h1>Tipos de Campos em um Formulário HTML</h1>
+<form name="form1" action="" method="POST" enctype="multipart/form-
+data">
+<table>
+<tr>
+<td><strong>Nome:</strong></td>
+<td><input type="text" name="nome" size="20"></td>
+<td>(Tipo Texto)</td>
+</tr>
+<tr>
+<td><strong>Senha:</strong></td>
+<td><input type="password" name="senha" size="20"></td>
+<td>(Tipo Senha)</td>
+</tr>
+<tr>
+<td><strong>Sexo:</strong></td>
+<td>
+<input type="radio" value="1" checked
+name="sexo">Masculino
+<input type="radio" value="2" name="sexo">Feminino
+</td>
+<td>(Tipo Botão de Rádio)</td>
+</tr>
+<tr>
+<td><strong>Opções:</strong></td>
+<td>
+<select name="opções" size="1">
+<option value="selecione uma das opções">selecione
+uma das opções</option>
+<option value="opcao 1">Opcao 1</option>
+<option value="opcao 2">Opcao 2</option>
+<option value="opcao 3">Opcao 3</option>
+<option value="opcao 4">Opcao 4</option>
+</select>
+</td>
+<td>(Tipo Seleção)</td>
+</tr>
+<tr>
+<td><strong>Deseja receber informações:</strong></td>
+<td><input type="checkbox" name="newsletter"
+value="ON">Sim</td>
+<td>(Tipo Caixa de Checagem)</td>
+</tr>
+<tr>
+<td><strong>Seus comentários:</strong></td>
+<td><textarea rows="2" name="comentários"
+cols="31"></textarea></td>
+<td>(Tipo Área de Texto)</td>
+</tr>
+<tr>
+<td><strong>Envie sua Imagem:</strong></td>
+<td><input type="file" name="T1" size="20"></td>
+<td>(Tipo Arquivo)</td>
+</tr>
+<tr>
+<td colspan="3">
+<input type="submit" value="Enviar" name="B1"> (Botão
+Enviar)
+<input type="reset" value="Limpar" name="B2"> (Botão
+Limpar)
+<input src="imagens/botaook.png" name="bt_ok"
+width="31" height="35" type="image"> (Imagem)
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

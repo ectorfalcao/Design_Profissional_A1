@@ -1,0 +1,21 @@
+/* Estiliza todos os elementos <h1> */
+h1 {font: bold 14px Verdana; /* Define a fonte como Verdana, tamanho
+14px e estilo negrito */
+background-color: #ddeeff; /* Define a cor de fundo como azul claro
+*/
+padding: 5px; /* Adiciona um espaçamento interno de 5px
+ao redor do texto */
+}
+/* Estiliza a div com id="main" */
+#main {
+border: 1px solid #aaaaaa; /* Cria uma borda sólida de 1px com cor
+cinza clara */
+padding: 10px; /* Adiciona espaçamento interno de 10px
+dentro da div */
+}
+/* Estiliza o corpo da página */
+body {
+margin: 10px; /* Adiciona uma margem externa de 10px ao
+redor do conteúdo da página */
+background-color: #ddeeff;
+}
