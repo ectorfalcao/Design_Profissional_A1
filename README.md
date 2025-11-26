@@ -55,4 +55,5 @@ DesignProfissional_A1
 * Linguagens (Estudos):  C, Java, HTML/CSS
 ## 📞 Contato
 Caso queira entrar em contato ou ver mais sobre meu perfil profissional:
+* LinkedIn: www.linkedin.com/in/ector-falcão-353a09382
 * E-mail: ector_100@hotmail.com
