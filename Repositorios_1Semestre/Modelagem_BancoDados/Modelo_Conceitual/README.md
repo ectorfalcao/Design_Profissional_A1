@@ -147,7 +147,7 @@ erDiagram
     ALUNO ||--|{ HISTORICO_ESCOLAR : "possui"
 ```
 🎨 Diagrama Visual (brModelo)
-![alt text](./diagrama_conceitual.png)
+![alt text](./diagrama_conceitual.PNG)
 
 🧩 Estruturas e Entidades
 O modelo destaca-se pelo uso de Generalização/Especialização e relacionamentos complexos. Abaixo, os principais grupos de entidades:
