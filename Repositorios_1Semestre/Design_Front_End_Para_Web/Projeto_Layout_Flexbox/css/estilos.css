@@ -1,0 +1,72 @@
+/* Aplica box-sizing: border-box a todos os elementos, incluindo padding e
+borda no cálculo da largura/altura */
+* {
+box-sizing: border-box;
+}
+/* Define a fonte padrão para o corpo da página */
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+/* Estiliza o cabeçalho da página */
+header {
+background-color: #666; /* Cor de fundo cinza escuro */
+padding: 30px; /* Espaçamento interno de 30px */
+text-align: center; /* Centraliza o texto */
+font-size: 35px; /* Tamanho da fonte grande */
+color: white; /* Cor do texto branca */
+}
+/* Contêiner para flexboxes */
+section {
+display: -webkit-flex; /* Suporte para navegadores mais antigos baseados em
+WebKit (como versões antigas do Safari e Chrome) */
+display: flex; /* Define o elemento <section> como um contêiner
+flexível, permitindo o uso de layout flexbox */
+}
+/* Estiliza a barra de navegação (menu lateral) */
+nav {
+-webkit-flex: 1; /* Define a proporção de crescimento do elemento em
+navegadores WebKit antigos (como versões antigas do Safari e Chrome) */
+-ms-flex: 1; /* Suporte para navegadores antigos da Microsoft (como
+Internet Explorer 10/11) */
+flex: 1; /* Faz com que o elemento <nav> ocupe uma parte igual do
+espaço disponível no contêiner flexível */
+background: #ccc; /* Define a cor de fundo como cinza claro */
+padding: 20px; /* Adiciona espaçamento interno de 20px em todos os lados
+*/
+}
+/* Remove os marcadores da lista e o espaçamento interno dentro do Menu */
+nav ul {
+list-style-type: none; /* Remove os bullets da lista */
+padding: 0; /* Remove o padding padrão */
+}
+/* Estiliza o conteúdo principal */
+article {
+-webkit-flex: 3; /* Define a proporção de crescimento do elemento em
+navegadores WebKit antigos (como versões antigas do Safari e Chrome) */
+-ms-flex: 3; /* Suporte para navegadores antigos da Microsoft
+(como Internet Explorer 10/11) */
+flex: 3; /* Faz com que o elemento <article> ocupe 3 partes
+do espaço disponível no contêiner flexível, em relação aos outros elementos */
+background-color: #f1f1f1; /* Define a cor de fundo como cinza muito claro,
+para destacar o conteúdo */
+padding: 10px; /* Adiciona espaçamento interno de 10px em todos os
+lados, melhorando a legibilidade */
+}
+/* Estiliza o rodapé da página */
+footer {
+background-color: #777; /* Cor de fundo cinza médio */
+padding: 10px; /* Espaçamento interno de 10px */
+text-align: center; /* Centraliza o texto */
+color: white; /* Cor do texto branca */
+}
+/* Layout responsivo - faz com que o menu e o conteúdo (dentro da seção) fiquem
+um sobre o outro, em vez de lado a lado */
+@media (max-width: 600px) { /* Aplicar as regras abaixo apenas quando a
+largura da tela for de até 600px */
+section {
+-webkit-flex-direction: column; /* Define a direção dos itens flexíveis
+como coluna (um embaixo do outro) para navegadores WebKit antigos */
+flex-direction: column; /* Define a direção dos itens flexíveis
+como coluna (um embaixo do outro) em navegadores modernos */
+}
+}
