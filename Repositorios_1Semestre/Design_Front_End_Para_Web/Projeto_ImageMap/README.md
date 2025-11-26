@@ -54,7 +54,7 @@ Html
     <!-- Link para o Café (Área Circular) -->
     <area alt="Cafe" href="cafe.html" coords="336,301,48" shape="circle">
 </map>
-```
+
 
 # 🚀 Como Executar
 * Baixe a pasta do projeto.
