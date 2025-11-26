@@ -1,0 +1,22 @@
+body{
+background-image: url('../imagens/logoHTML5.png'); /* Coloca uma imagem de
+fundo na página */
+background-size: cover; /* Faz a imagem ocupar todo o fundo */
+background-repeat: no-repeat; /* Evita que a imagem se repita */
+background-position: center; /* Centraliza a imagem */
+}
+div {
+text-align: center; /* Centraliza o conteúdo horizontalmente */
+color: bisque; /* Define a cor do texto como bisque */
+background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para
+contraste */
+padding: 20px; /* Espaçamento interno ao redor do conteúdo */
+border-radius: 10px; /* Arredonda os cantos da caixa */
+}
+button {
+margin: 10px; /* Espaçamento externo entre os botões */
+padding: 10px 20px; /* Espaçamento interno: altura (10px) e largura (20px) */
+font-size: 16px; /* Tamanho da fonte do texto do botão */
+cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão
+*/
+}
