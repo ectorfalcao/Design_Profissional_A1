@@ -61,7 +61,7 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
 ### 🗣️ Design Profissional
 > *Foco: Escrita técnica, ética e profissionalismo.*
 
-*   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Comunicacao)
+*   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Design_Profissional)
     *   **Destaques:**
         *   ♻️ **Infográfico Green IT:** Estudo sobre lixo eletrônico.
 
