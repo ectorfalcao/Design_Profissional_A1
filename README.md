@@ -27,7 +27,7 @@ Abaixo estão os links para os materiais e projetos desenvolvidos em cada unidad
 - 🚀 **Design Profissional**
   - [Acessar Conteúdo](./Repositorios_1Semestre/Design_Profissional)
 
-- 💻 **Algoritmos e Programação**
+- 💻 **Algoritmos e Pensamento Computacional**
   - [Acessar Conteúdo](./Repositorios_1Semestre/Algoritmos)
 
 ## 🗂 Estrutura de Arquivos
