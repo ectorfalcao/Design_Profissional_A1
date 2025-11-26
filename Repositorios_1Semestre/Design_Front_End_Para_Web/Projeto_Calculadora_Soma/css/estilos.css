@@ -1,0 +1,65 @@
+html, body { /* Aplica os estilos tanto ao elemento <html> quanto ao <body> */
+margin: 0; /* Remove todas as margens externas padrão dos elementos */
+padding: 0; /* Remove todos os espaçamentos internos padrão dos elementos */
+height: 100%; /* Define a altura como 100% da altura da janela do navegador
+*/
+}
+body { /* Início do bloco de estilos para o elemento <body> */
+font-family: Arial, sans-serif; /* Define a fonte principal como Arial, com
+fallback para fontes sem serifa */
+background-image: url('..//imagens/fundonumeros.png'); /* Define a imagem de
+fundo (verifique se o caminho está correto: deve ser
+'../imagens/fundonumeros.png') */background-size: cover; /* Faz a imagem cobrir toda a área visível da
+tela */
+background-position: center; /* Centraliza a imagem de fundo na tela */
+background-repeat: no-repeat; /* Impede que a imagem se repita em mosaico */
+display: flex; /* Ativa o modelo Flexbox para alinhar os elementos filhos */
+justify-content: center; /* Centraliza horizontalmente os elementos filhos */
+align-items: center; /* Centraliza verticalmente os elementos filhos */
+height: 100vh; /* Define a altura do body como 100% da altura da janela
+visível (viewport) */
+} /* Fim do bloco de estilos */
+.container { /* Início do bloco de estilos para o elemento com a classe
+"container" */
+background: white; /* Define o fundo da caixa como branco */
+padding: 30px; /* Adiciona espaçamento interno de 30 pixels em todos os lados
+*/
+border-radius: 10px; /* Arredonda os cantos da caixa com raio de 10 pixels */
+box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Aplica uma sombra suave ao redor da
+caixa */
+text-align: center; /* Centraliza o texto e os elementos internos
+horizontalmente */
+} /* Fim do bloco de estilos */
+input[type="number"] { /* Aplica estilos apenas aos campos de entrada do tipo
+"number" */
+padding: 10px; /* Adiciona espaçamento interno de 10px ao redor do
+conteúdo */
+margin: 10px; /* Adiciona espaçamento externo de 10px ao redor do
+elemento */
+width: 100px; /* Define a largura do campo como 100 pixels */
+border: 1px solid #ccc; /* Cria uma borda cinza clara de 1 pixel */
+border-radius: 5px; /* Arredonda os cantos da borda com raio de 5 pixels */
+}
+button { /* Início do bloco de estilos para o elemento <button> */
+padding: 10px 20px; /* Adiciona espaçamento interno: 10px vertical e 20px
+horizontal */
+background-color: #0078D7; /* Define a cor de fundo do botão como azul
+(padrão Microsoft) */
+color: white; /* Define a cor do texto do botão como branco */
+border: none; /* Remove qualquer borda padrão do botão */
+border-radius: 5px; /* Arredonda os cantos do botão com raio de 5 pixels */
+cursor: pointer; /* Altera o cursor para uma mãozinha ao passar sobre o botão
+*/
+} /* Fim do bloco de estilos */
+button:hover { /* Aplica estilos ao botão quando o usuário passa o mouse sobre
+ele */
+background-color: #005fa3; /* Altera a cor de fundo para um tom de azul mais
+escuro durante o hover */
+}
+#resultado { /* Aplica estilos ao elemento com o ID "resultado" */
+margin-top: 20px; /* Adiciona um espaçamento de 20px acima do elemento */
+font-size: 1.2em; /* Define o tamanho da fonte como 1.2 vezes o tamanho
+padrão */
+color: #333; /* Define a cor do texto como cinza escuro (#333) para
+melhor legibilidade */
+}
