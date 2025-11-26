@@ -52,7 +52,7 @@ DesignProfissional_A1
 ## 🛠 Tecnologias e Ferramentas Utilizadas
 * Controle de Versão: Git & GitHub
 * Documentação: Markdown, LaTeX
-* Linguagens (Estudos):  C, Java, HTML/CSS
+* Linguagens (Estudos):  C, Java, HTML/CSS, SQL
 ## 📞 Contato
 Caso queira entrar em contato ou ver mais sobre meu perfil profissional:
 * LinkedIn: www.linkedin.com/in/ector-falcão-353a09382
