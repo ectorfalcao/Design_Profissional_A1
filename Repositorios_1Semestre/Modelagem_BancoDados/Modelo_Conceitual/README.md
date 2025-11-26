@@ -12,33 +12,36 @@ O objetivo do banco de dados é centralizar informações sobre o corpo docente,
 
 ```mermaid
 erDiagram
-    %% --- ENTIDADES ---
+    %% --- ENTIDADES E ATRIBUTOS ---
+
     INSTITUICAO {
         int Cod_Instituicao PK
         string Nome
         string Email
         string CNPJ
-        string Endereco_Rua
-        int Endereco_Numero
-        string Endereco_CEP
-        string Endereco_Bairro
-        string Endereco_Cidade
-        string Endereco_Estado
+    }
+
+    ENDERECO {
+        string CEP
+        string Bairro
+        string Cidade
+        string Estado
+        int Numero
     }
 
     CURSO {
-        int Cod_Curso PK
+        int Cod_Curs PK
         string Nome
-        float Carga_Horaria
+        float Carga_horaria
     }
 
     DISCIPLINA {
-        int Cod_Disciplina PK
+        int Cod_Discipl PK
         string Nome
     }
 
     TURMA {
-        int Cod_Turma PK
+        int Cod_Turm PK
         string Nome
         date Data
         time Horario
@@ -46,100 +49,102 @@ erDiagram
     }
 
     SALA {
-        int Cod_Sala PK
+        int Cod_Sal PK
         string Nome
         string Localizacao
         int Capacidade
         int Tamanho
     }
 
-    TIPO_SALA {
-        int Cod_Tipo PK
+    TIPO {
+        int ID_Tip PK
         string Nome
     }
 
     PESSOA {
         int Cod_Pessoa PK
         string Nome
-        string CPF
-        date Data_Nascimento
+        date Data_nascimento
         string Email
-        string Endereco_Rua
-        int Endereco_Numero
-        string Endereco_CEP
-        string Endereco_Bairro
-        string Endereco_Cidade
-        string Endereco_Estado
+        string CPF
     }
 
     TELEFONE {
-        int DDD
-        int Numero
+        int ddd
+        int numer
     }
 
     %% --- ESPECIALIZAÇÕES (HERANÇA) ---
+    
     PROFESSOR {
         string Departamento
         string Titulacao
     }
 
     FUNCIONARIO {
-        int Cod_Cargo
+        int id_interno
     }
 
     ALUNO {
-        string Matricula
+        int matricula
     }
 
     CARGO {
-        int Cod_Cargo PK
+        int ID_carg PK
         string Nome
         float Salario
     }
 
     HISTORICO_ESCOLAR {
-        string Ano_Semestre
-        float Nota
-        float Frequencia
-        string Situacao
+        string ano_semestre
+        float nota
+        float frequencia
+        string situacao
     }
 
-    %% --- RELACIONAMENTOS E CARDINALIDADES ---
-    
-    %% Instituição (1,n) ----- (1,n) Curso
+    %% --- RELACIONAMENTOS DO DIAGRAMA ---
+
+    %% Instituição tem Endereço (1,1) e Pessoa tem Endereço (1,1)
+    INSTITUICAO ||--|| ENDERECO : "possui"
+    PESSOA ||--|| ENDERECO : "possui"
+
+    %% Instituição (0,n) -- (1,n) Curso
     INSTITUICAO }|--|{ CURSO : "Curso_Instituicao"
 
-    %% Curso (1,n) ----- (1,n) Disciplina
+    %% Curso (1,n) -- (1,n) Disciplina
     CURSO }|--|{ DISCIPLINA : "Disciplina_Curso"
 
-    %% Disciplina (1,n) ----- (1,n) Sala
+    %% Disciplina (1,n) -- (0,n) Sala (Relacionamento Disciplina_Sala na imagem)
     DISCIPLINA }|--|{ SALA : "Disciplina_Sala"
 
-    %% Disciplina (1,n) ----- (1,n) Turma
+    %% Disciplina (1,n) -- (1,n) Turma
     DISCIPLINA }|--|{ TURMA : "Disciplina_Turma"
 
-    %% Turma (1,n) ----- (1,n) Sala
+    %% Turma (1,n) -- (1,n) Sala
     TURMA }|--|{ SALA : "Turma_Sala"
 
-    %% Sala (1,n) ----- (0,1) Tipo (Sala tem 1 tipo, Tipo tem N salas)
-    SALA }|--|| TIPO_SALA : "Sala_Tipo"
+    %% Sala (0,n) -- (0,1) Tipo
+    SALA }|--|| TIPO : "Sala_Tipo"
 
-    %% Turma (1,1) ----- (1,n) Pessoa (Professor) (Associativa Turma_Prof)
-    TURMA }|--|{ PROFESSOR : "Turma_Professor"
+    %% Pessoa (1,1) -- (1,n) Telefone
+    PESSOA ||--|{ TELEFONE : "tem"
 
-    %% Pessoa (1,1) ----- (1,n) Telefone
-    PESSOA ||--|{ TELEFONE : "Possui"
+    %% Herança: Pessoa é Professor, Funcionário, Aluno
+    PESSOA ||--|| PROFESSOR : "E_um"
+    PESSOA ||--|| FUNCIONARIO : "E_um"
+    PESSOA ||--|| ALUNO : "E_um"
 
-    %% Pessoa Especializações
-    PESSOA ||--|| PROFESSOR : "Eh"
-    PESSOA ||--|| FUNCIONARIO : "Eh"
-    PESSOA ||--|| ALUNO : "Eh"
+    %% Professor (1,n) -- (1,1) Turma (R na imagem - Leciona)
+    PROFESSOR }|--|{ TURMA : "leciona"
 
-    %% Funcionario (1,n) ----- (1,1) Cargo
-    FUNCIONARIO }|--|| CARGO : "Ocupa"
+    %% Funcionario (1,n) -- (1,1) Cargo
+    FUNCIONARIO }|--|| CARGO : "ocupa"
 
-    %% Aluno (1,n) ----- (1,n) Historico (Associado a Turma/Disciplina na lógica)
-    ALUNO ||--|{ HISTORICO_ESCOLAR : "Possui"
+    %% Aluno (1,n) -- (1,n) Turma (R na imagem - Matriculado)
+    ALUNO }|--|{ TURMA : "matriculado"
+
+    %% Aluno (1,1) -- (1,n) Historico
+    ALUNO ||--|{ HISTORICO_ESCOLAR : "possui"
 ```
 🎨 Diagrama Visual (brModelo)
 ![alt text](./diagrama_conceitual.png)
