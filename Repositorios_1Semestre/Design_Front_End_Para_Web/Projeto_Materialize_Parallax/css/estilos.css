@@ -1,0 +1,55 @@
+/* --- 1. REGRAS DO MENU / NAVBAR --- */
+nav .brand-logo {
+    color: #333; /* Cor da Logomarca */
+}
+
+/* Alinhamento do Botão Sanduíche */
+.sidenav-trigger {
+    margin: 0;
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Cor e tamanho do ícone do menu */
+.sidenav-trigger i {
+    color: #26a69a !important;
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+
+/* --- 2. REGRAS DO PARALLAX --- */
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: white;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+/* --- 3. NOVAS REGRAS (Ícones e Texto) --- */
+
+/* Ajusta o espaçamento dos blocos de ícones */
+.icon-block {
+    padding: 0 15px;
+}
+
+/* Garante que o ícone herde o tamanho correto */
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+/* Justifica o texto dentro dos blocos de ícone */
+.icon-block p {
+    text-align: justify;
+}
+
+/* Aumenta o espaçamento entre as linhas de todos os parágrafos */
+p {
+    line-height: 2rem;
+}
