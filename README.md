@@ -49,11 +49,11 @@ DesignProfissional_A1
 └── README.md (Este arquivo)
 
 ```
-# 🛠 Tecnologias e Ferramentas Utilizadas
+## 🛠 Tecnologias e Ferramentas Utilizadas
 * Controle de Versão: Git & GitHub
 * Documentação: Markdown, LaTeX
 * Linguagens (Estudos): [Cite as linguagens que você usou, ex: Python, C, Java, HTML/CSS]
-# 📞 Contato
-* Caso queira entrar em contato ou ver mais sobre meu perfil profissional:
+## 📞 Contato
+Caso queira entrar em contato ou ver mais sobre meu perfil profissional:
 * LinkedIn: [Insira o Link do seu LinkedIn]
 * E-mail: [Seu e-mail institucional ou profissional]
