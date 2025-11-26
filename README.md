@@ -32,7 +32,7 @@ Abaixo estão os links para os materiais e projetos desenvolvidos em cada unidad
 
 ## 🗂 Estrutura de Arquivos
 
-A organização deste repositório segue a estrutura sugerida para facilitar a navegação e avaliação:
+A organização deste repositório segue a estrutura sugerida para facilitar a navegação e avaliação (corrigindo os cursos incorretos no enunciado):
 
 ```text
 DesignProfissional_A1
