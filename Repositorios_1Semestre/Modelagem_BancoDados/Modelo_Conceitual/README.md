@@ -8,48 +8,169 @@ Este projeto consiste na modelagem conceitual (Diagrama Entidade-Relacionamento)
 
 O objetivo do banco de dados é centralizar informações sobre o corpo docente, discente, administrativo, além de gerenciar a estrutura pedagógica (cursos e disciplinas) e física (salas e turmas) da instituição.
 
-## 🎨 Diagrama Conceitual (MER)
+## 🎨 Diagrama Conceitual (Mermaid)
 
-![Diagrama ER](./diagrama_conceitual.png)
-*(Certifique-se de salvar a imagem do diagrama nesta pasta com o nome "diagrama_conceitual.PNG")*
+```mermaid
+erDiagram
+    %% --- ENTIDADES ---
+    INSTITUICAO {
+        int Cod_Instituicao PK
+        string Nome
+        string Email
+        string CNPJ
+        string Endereco_Rua
+        int Endereco_Numero
+        string Endereco_CEP
+        string Endereco_Bairro
+        string Endereco_Cidade
+        string Endereco_Estado
+    }
 
-## 🧩 Estruturas e Entidades
+    CURSO {
+        int Cod_Curso PK
+        string Nome
+        float Carga_Horaria
+    }
 
-O modelo destaca-se pelo uso de **Generalização/Especialização** e relacionamentos complexos. Abaixo, os principais grupos de entidades:
+    DISCIPLINA {
+        int Cod_Disciplina PK
+        string Nome
+    }
 
-### 1. Hierarquia de Pessoas (Herança)
+    TURMA {
+        int Cod_Turma PK
+        string Nome
+        date Data
+        time Horario
+        int Capacidade
+    }
+
+    SALA {
+        int Cod_Sala PK
+        string Nome
+        string Localizacao
+        int Capacidade
+        int Tamanho
+    }
+
+    TIPO_SALA {
+        int Cod_Tipo PK
+        string Nome
+    }
+
+    PESSOA {
+        int Cod_Pessoa PK
+        string Nome
+        string CPF
+        date Data_Nascimento
+        string Email
+        string Endereco_Rua
+        int Endereco_Numero
+        string Endereco_CEP
+        string Endereco_Bairro
+        string Endereco_Cidade
+        string Endereco_Estado
+    }
+
+    TELEFONE {
+        int DDD
+        int Numero
+    }
+
+    %% --- ESPECIALIZAÇÕES (HERANÇA) ---
+    PROFESSOR {
+        string Departamento
+        string Titulacao
+    }
+
+    FUNCIONARIO {
+        int Cod_Cargo
+    }
+
+    ALUNO {
+        string Matricula
+    }
+
+    CARGO {
+        int Cod_Cargo PK
+        string Nome
+        float Salario
+    }
+
+    HISTORICO_ESCOLAR {
+        string Ano_Semestre
+        float Nota
+        float Frequencia
+        string Situacao
+    }
+
+    %% --- RELACIONAMENTOS E CARDINALIDADES ---
+    
+    %% Instituição (1,n) ----- (1,n) Curso
+    INSTITUICAO }|--|{ CURSO : "Curso_Instituicao"
+
+    %% Curso (1,n) ----- (1,n) Disciplina
+    CURSO }|--|{ DISCIPLINA : "Disciplina_Curso"
+
+    %% Disciplina (1,n) ----- (1,n) Sala
+    DISCIPLINA }|--|{ SALA : "Disciplina_Sala"
+
+    %% Disciplina (1,n) ----- (1,n) Turma
+    DISCIPLINA }|--|{ TURMA : "Disciplina_Turma"
+
+    %% Turma (1,n) ----- (1,n) Sala
+    TURMA }|--|{ SALA : "Turma_Sala"
+
+    %% Sala (1,n) ----- (0,1) Tipo (Sala tem 1 tipo, Tipo tem N salas)
+    SALA }|--|| TIPO_SALA : "Sala_Tipo"
+
+    %% Turma (1,1) ----- (1,n) Pessoa (Professor) (Associativa Turma_Prof)
+    TURMA }|--|{ PROFESSOR : "Turma_Professor"
+
+    %% Pessoa (1,1) ----- (1,n) Telefone
+    PESSOA ||--|{ TELEFONE : "Possui"
+
+    %% Pessoa Especializações
+    PESSOA ||--|| PROFESSOR : "Eh"
+    PESSOA ||--|| FUNCIONARIO : "Eh"
+    PESSOA ||--|| ALUNO : "Eh"
+
+    %% Funcionario (1,n) ----- (1,1) Cargo
+    FUNCIONARIO }|--|| CARGO : "Ocupa"
+
+    %% Aluno (1,n) ----- (1,n) Historico (Associado a Turma/Disciplina na lógica)
+    ALUNO ||--|{ HISTORICO_ESCOLAR : "Possui"
+```
+🎨 Diagrama Visual (brModelo)
+![alt text](./diagrama_conceitual.png)
+
+🧩 Estruturas e Entidades
+O modelo destaca-se pelo uso de Generalização/Especialização e relacionamentos complexos. Abaixo, os principais grupos de entidades:
+1. Hierarquia de Pessoas (Herança)
 Foi aplicada uma estrutura de generalização para evitar redundância de dados comuns.
-*   **Pessoa (Entidade Pai):** Armazena dados genéricos como `Nome`, `CPF`, `Data_Nascimento`, `Email` e relacionamentos com `Endereço` e `Telefone`.
-*   **Especializações (Entidades Filhas):**
-    *   **Professor:** Possui atributos específicos como `Titulação` e `Departamento`.
-    *   **Aluno:** Relaciona-se com `Histórico_escolar` e Turmas.
-    *   **Funcionário:** Relaciona-se com `Cargo` (que define o salário e função).
+Pessoa (Entidade Pai): Armazena dados genéricos como Nome, CPF, Data_Nascimento, Email e relacionamentos com Endereço e Telefone.
+Especializações (Entidades Filhas):
+Professor: Possui atributos específicos como Titulação e Departamento.
+Aluno: Relaciona-se com Histórico_escolar e Turmas.
+Funcionário: Relaciona-se com Cargo (que define o salário e função).
+2. Estrutura Pedagógica
+Instituição: Entidade central que oferta os cursos.
+Curso: Possui Carga_Horaria e contém várias disciplinas.
+Disciplina: Matérias que compõem a grade curricular.
+Turma: A instância real de uma disciplina, ocorrendo em um horário específico.
+3. Estrutura Física
+Sala: Define o espaço físico (Tamanho, Capacidade, Localização).
+Tipo (de Sala): Categoriza as salas (ex: Laboratório, Sala de Aula, Auditório).
+🔗 Principais Regras de Negócio Identificadas
+Unicidade de Pessoa: Uma pessoa é cadastrada apenas uma vez, podendo atuar como Professor, Aluno ou Funcionário (dependendo do tipo de especialização adotada).
+Histórico Escolar: O desempenho do aluno (Nota, Frequência, Situação) é registrado por semestre no relacionamento entre Aluno e Turma/Disciplina.
+Alocação de Salas: Cada turma é alocada em uma sala, que por sua vez possui um tipo específico, garantindo que aulas de laboratório não ocorram em salas comuns.
+Cargos e Salários: Os salários não estão atrelados diretamente ao funcionário, mas sim ao Cargo, facilitando atualizações salariais em massa.
+🛠️ Tecnologias Utilizadas
+![alt text](https://img.shields.io/badge/Modelagem-brModelo-blue?style=for-the-badge)
 
-### 2. Estrutura Pedagógica
-*   **Instituição:** Entidade central que oferta os cursos.
-*   **Curso:** Possui `Carga_Horaria` e contém várias disciplinas.
-*   **Disciplina:** Matérias que compõem a grade curricular.
-*   **Turma:** A instância real de uma disciplina, ocorrendo em um horário específico.
-
-### 3. Estrutura Física
-*   **Sala:** Define o espaço físico (`Tamanho`, `Capacidade`, `Localização`).
-*   **Tipo (de Sala):** Categoriza as salas (ex: Laboratório, Sala de Aula, Auditório).
-
-## 🔗 Principais Regras de Negócio Identificadas
-
-1.  **Unicidade de Pessoa:** Uma pessoa é cadastrada apenas uma vez, podendo atuar como Professor, Aluno ou Funcionário (dependendo do tipo de especialização adotada).
-2.  **Histórico Escolar:** O desempenho do aluno (`Nota`, `Frequência`, `Situação`) é registrado por semestre no relacionamento entre Aluno e Turma/Disciplina.
-3.  **Alocação de Salas:** Cada turma é alocada em uma sala, que por sua vez possui um tipo específico, garantindo que aulas de laboratório não ocorram em salas comuns.
-4.  **Cargos e Salários:** Os salários não estão atrelados diretamente ao funcionário, mas sim ao `Cargo`, facilitando atualizações salariais em massa.
-
-## 🛠️ Tecnologias Utilizadas
-
-![brModelo](https://img.shields.io/badge/Modelagem-brModelo-blue?style=for-the-badge)
-![SQL](https://img.shields.io/badge/Banco_de_Dados-Conceitual-orange?style=for-the-badge)
-
-## 🚀 Como Abrir e Editar
-1.  Para visualizar a imagem, basta acessar este repositório.
-2.  Para editar a estrutura lógica, é necessário possuir o arquivo `.brM3` (caso disponível) e utilizar o software **brModelo 3.0**.
-
----
-**Desenvolvido por Ector Carvalho, Erick Bruno, João Paulo, Luan Rodrigues, Matheus, Michael Fernando e Tiago Mendes**
+![alt text](https://img.shields.io/badge/Banco_de_Dados-Conceitual-orange?style=for-the-badge)
+🚀 Como Abrir e Editar
+Para visualizar a imagem, basta acessar este repositório.
+Para editar a estrutura lógica, é necessário possuir o arquivo .brM3 (caso disponível) e utilizar o software brModelo 3.0.
+Desenvolvido por [SEU NOME]
