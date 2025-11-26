@@ -61,4 +61,5 @@ Html
 * Certifique-se de que a pasta imagens contém os arquivos JPG necessários.
 * Abra o arquivo index.html no seu navegador.
 * Passe o mouse sobre os objetos na foto e clique para navegar.
-* Desenvolvido por Ector Falcão
+
+# Desenvolvido por Ector Falcão
