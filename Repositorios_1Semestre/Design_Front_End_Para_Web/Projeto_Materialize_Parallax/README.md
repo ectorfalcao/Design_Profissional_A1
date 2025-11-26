@@ -37,7 +37,7 @@ Projeto_Materialize_Parallax/
 
 Diferente de projetos puramente HTML/CSS, componentes complexos do Materialize precisam ser "ligados" via JavaScript:
 
-code
+```code
 JavaScript
 $(document).ready(function(){
     // Ativa o menu lateral
@@ -46,6 +46,7 @@ $(document).ready(function(){
     // Ativa o efeito de profundidade nas imagens
     $('.parallax').parallax();
 });
+```
 # Sistema de Grid (12 Colunas)
 * O código utiliza classes como col s12 m4:
 
