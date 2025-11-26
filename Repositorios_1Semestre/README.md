@@ -38,4 +38,4 @@ Durante este semestre, utilizei um conjunto de ferramentas para desenvolvimento 
 *   **Banco de Dados:** PostgreSQL.
 
 ---
-*Este repositório está em constante atualização conforme o avanço do semestre letivo.*
+*Este repositório ainda pode mudar conforme eventual avanço do semestre letivo.*
