@@ -11,7 +11,7 @@ O objetivo do banco de dados é centralizar informações sobre o corpo docente,
 ## 🎨 Diagrama Conceitual (MER)
 
 ![Diagrama ER](./diagrama_conceitual.png)
-*(Certifique-se de salvar a imagem do diagrama nesta pasta com o nome "diagrama_conceitual.png")*
+*(Certifique-se de salvar a imagem do diagrama nesta pasta com o nome "diagrama_conceitual.PNG")*
 
 ## 🧩 Estruturas e Entidades
 
