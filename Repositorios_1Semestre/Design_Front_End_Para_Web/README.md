@@ -1,4 +1,4 @@
-# 🎨 Design Front End para Web
+# 🎨 Desenvolvimento Front End para Web
 
 **Semestre:** 1º
 
