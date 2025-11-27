@@ -22,7 +22,7 @@ Aqui estão reunidas evidências de engajamento com o mercado (processos seletiv
 
 | Item | Descrição | Status | Acesso Rápido |
 | :--- | :--- | :---: | :--- |
-| **1. Processo Seletivo** | Evidência de candidatura para estágio/trainee. | ✔️ | [📄 Ver Evidência](./relato_processo_seletivo.pdf) |
+| **1. Processo Seletivo** | Evidência de candidatura para estágio/trainee. | ✔️ | [📄 Ver Evidência](Relato_Processo_Seletivo.pdf) |
 | **2. Evento Acadêmico** | Certificado de participação em evento de TI. | ✔️ | [📄 Ver Certificado](./Cerfiticado_Evento.pdf) |
 | **3. Currículo** | Currículo profissional desenvolvido em **LaTeX**. | ✔️ | [📄 Ver Currículo](./CV___Modelo_ector.pdf) |
 | **5. Projetos Técnicos** | Códigos e atividades das disciplinas do semestre. | ✔️ | *Ver seção abaixo* |
