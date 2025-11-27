@@ -44,17 +44,31 @@ C
 // Exemplo: Criando um array do tamanho exato que o usuário precisa
 array = (double *) malloc(tamanho * sizeof(double));
 ### 4. Matemática Computacional
+
 Implementação de algoritmos complexos utilizando a biblioteca <math.h>:
+
 Trigonometria (Seno, Cosseno, Tangente com conversão de Radianos).
+
 Álgebra Linear (Soma e Multiplicação de Matrizes 3x3).
+
 Equações Quadráticas (Bhaskara com tratamento de Delta).
+
 ---
+
 # 🚀 Como Executar este Projeto
+
 Baixe o arquivo main.c presente nesta pasta.
+
 Utilize um compilador GCC (ou IDE como VS Code/Dev-C++).
+
 Compile o código (no Linux/Terminal, lembre-se da flag -lm):
+
 code
+
 Bash
+
 gcc main.c -o calculadora_portfolio -lm
+
 Ao executar, o programa criará automaticamente o arquivo historico.csv na mesma pasta.
+
 Desenvolvido por Ector Carvalho Alves Falcão
