@@ -40,20 +40,11 @@ Ferramentas e bibliotecas dominadas durante o desenvolvimento dos projetos desta
 
 Abaixo estão os principais softwares desenvolvidos:
 
-### 1. [🧮 Calculadora Científica Modular](./projeto_calculadora_cientifica)
-> **Destaque do Semestre.** Um sistema robusto que vai além de cálculos simples.
-*   **Funcionalidades:** 27 operações (incluindo Matrizes e Bhaskara).
-*   **Técnica:** Uso de **Structs** para logs, **Malloc** para arrays dinâmicos e **Persistência em CSV** para salvar o histórico.
-
-### 2. [📉 Análise de Algoritmos (Bubble Sort)](./Bubble_Sort)
-> Estudo de performance e complexidade.
-*   **Funcionalidades:** Ordenação de RGM.
-*   **Técnica:** Uso de `clock()` da biblioteca `<time.h>` para medir o tempo de CPU e contagem de passos (Swaps) para análise de eficiência $O(N^2)$.
-
-### 3. [🎓 Cálculo de Média Escolar](./media)
-> Introdução à lógica condicional.
-*   **Funcionalidades:** Cálculo de média aritmética e verificação de status (Aprovado/Reprovado).
-*   **Técnica:** Estruturas de decisão `if/else` e tipagem `float`.
+| Atividade | Descrição | Acesso |
+| :--- | :--- | :---: |
+| **Calculadora Científica Modular** | **Destaque do Semestre.** Sistema robusto com 27 operações (Matrizes, Bhaskara). Técnica: Uso de Structs, Malloc e Persistência em CSV para salvar histórico. | [📂 Ver Projeto](./projeto_calculadora_cientifica) |
+| **Análise de Algoritmos (Bubble Sort)** | Estudo de performance e complexidade ($O(N^2)$) na ordenação de RGM. Usa `clock()` para medir tempo de CPU e contagem de passos. | [📂 Ver Projeto](./Bubble_Sort) |
+| **Cálculo de Média Escolar** | Introdução à lógica condicional. Cálculo de média e verificação de status (Aprovado/Reprovado) usando `if/else` e `float`. | [📂 Ver Projeto](./media) |
 
 ---
 
