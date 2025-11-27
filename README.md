@@ -88,6 +88,7 @@ Ferramentas, linguagens e plataformas utilizadas durante o desenvolvimento dos p
 
 # 📞 Contato
 Estou à disposição para conexões profissionais e acadêmicas:
+
 <a href="https://www.linkedin.com/in/ector-falcão-353a09382" target="_blank">
 <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 <a href="mailto:ector_100@hotmail.com" target="_blank">
