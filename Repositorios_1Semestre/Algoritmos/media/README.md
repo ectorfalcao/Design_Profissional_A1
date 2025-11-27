@@ -77,9 +77,10 @@ Para desenvolver este código, segui o seguinte raciocínio:
 * Baixe o arquivo main.c deste repositório.
 * Abra o terminal na pasta do arquivo.
 * Para Compilar:
-* code
+```code C
 * Bash
 * gcc main.c -o media
+```
 * Para Executar:
 * Windows: media.exe
 * Linux/Mac: ./media
