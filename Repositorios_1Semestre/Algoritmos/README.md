@@ -32,6 +32,7 @@ Ferramentas e bibliotecas dominadas durante o desenvolvimento dos projetos desta
 ![Pointers](https://img.shields.io/badge/Pointers-Alocação_Dinâmica-red?style=for-the-badge)
 ![File System](https://img.shields.io/badge/File_System-Persistência_CSV-blue?style=for-the-badge)
 ![Algorithms](https://img.shields.io/badge/Algorithms-Bubble_Sort-yellow?style=for-the-badge)
+![Clean Code](https://img.shields.io/badge/Clean_Code-Responsabilidade_Única-1abc9c?style=for-the-badge)
 
 ---
 
@@ -39,7 +40,7 @@ Ferramentas e bibliotecas dominadas durante o desenvolvimento dos projetos desta
 
 Abaixo estão os principais softwares desenvolvidos:
 
-### 1. [🧮 Calculadora Científica Modular](./Bubble_Sort)
+### 1. [🧮 Calculadora Científica Modular](./projeto_calculadora_cientifica)
 > **Destaque do Semestre.** Um sistema robusto que vai além de cálculos simples.
 *   **Funcionalidades:** 27 operações (incluindo Matrizes e Bhaskara).
 *   **Técnica:** Uso de **Structs** para logs, **Malloc** para arrays dinâmicos e **Persistência em CSV** para salvar o histórico.
