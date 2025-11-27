@@ -69,10 +69,10 @@ void salvarHistoricoEmArquivo(){
 }
 
 # 🛠️ Bibliotecas Utilizadas
-* <stdio.h>: I/O padrão e manipulação de arquivos.
-* <stdlib.h>: malloc, free e controle de memória.
-* <math.h>: Biblioteca matemática robusta (pow, sqrt, sin, hypot, etc).
-* <string.h>: Manipulação de textos para o histórico.
+![Stdio](https://img.shields.io/badge/stdio.h-I%2FO-gray?style=for-the-badge)
+![Stdlib](https://img.shields.io/badge/stdlib.h-Memória-gray?style=for-the-badge)
+![Math](https://img.shields.io/badge/math.h-Cálculos-gray?style=for-the-badge)
+![String](https://img.shields.io/badge/string.h-Texto-gray?style=for-the-badge)
 
 # 🚀 Como Compilar e Executar
 * Baixe o arquivo main.c.
