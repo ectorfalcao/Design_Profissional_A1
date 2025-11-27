@@ -36,13 +36,23 @@ typedef struct {
 } historico;
 ```
 ### 2. Persistência de Dados
-Implementação de leitura e escrita em arquivos. O sistema gera automaticamente um arquivo CSV (Comma Separated Values), permitindo que o histórico de cálculos seja aberto posteriormente em softwares como Excel.
+
+Implementação de leitura e escrita em arquivos. O sistema gera automaticamente um arquivo CSV (Comma Separated Values), permitindo que o 
+
+histórico de cálculos seja aberto posteriormente em softwares como Excel.
+
 ### 3. Alocação Dinâmica de Memória
-Uso de ponteiros e da função malloc para criar arrays de tamanho variável em tempo de execução, otimizando o uso da memória RAM do computador.
+
+Uso de ponteiros e da função malloc para criar arrays de tamanho variável em tempo de execução, otimizando o uso da memória RAM do 
+computador.
+
 code
 C
+
 // Exemplo: Criando um array do tamanho exato que o usuário precisa
+```code
 array = (double *) malloc(tamanho * sizeof(double));
+```
 ### 4. Matemática Computacional
 
 Implementação de algoritmos complexos utilizando a biblioteca <math.h>:
