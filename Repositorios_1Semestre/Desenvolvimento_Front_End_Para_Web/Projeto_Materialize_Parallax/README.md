@@ -55,12 +55,10 @@ s12 (Small 12): Em telas pequenas (celular), ocupa as 12 colunas (largura total)
 m4 (Medium 4): Em telas médias/grandes (tablet/PC), ocupa apenas 4 colunas (1/3 da tela).
 
 # 🛠️ Tecnologias Utilizadas
+
 ![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
 ![alt text](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 ![alt text](https://img.shields.io/badge/Materialize-EE6E73?style=for-the-badge&logo=materialize&logoColor=white)
-
 ![alt text](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
 # 🚀 Como Executar
