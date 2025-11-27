@@ -17,7 +17,7 @@ Abaixo estão os detalhes de cada arquivo anexado neste diretório:
 | **Currículo Profissional** | `.pdf` | Elaborado em **LaTeX**. Destaca minha graduação em ADS no UDF, inglês avançado e competências em Python e Pesquisa. | [Abrir Arquivo](Cerfiticado_Evento.pdf) |
 | **Certificado de Evento** | `.pdf` | Participação na **7ª Mostra de Tecnologia Brasília Mais TI** (Ago/2025). Evento focado em tendências regionais e networking. | [Abrir Arquivo](Currículo_LaTex_E_Falcao.pdf) |
 | **Relato de Candidatura** | `.pdf` | Evidência de inscrição em processo seletivo para vaga de estágio na área de Tecnologia (via Microsoft Forms). | [Abrir Arquivo](Relato_Processo_Seletivo.pdf) |
-| **Projeto Calculadora Científica | `.c` | Calculadora científica modular desenvolvida em C, suportando 27 operações, manipulação de matrizes e sistema de histórico persistente em arquivo CSV. | [Abrir Arquivo](Projeto_Obrigatorio) |
+| **Projeto Calculadora Científica** | `.c` | Calculadora científica modular desenvolvida em C, suportando 27 operações, manipulação de matrizes e sistema de histórico persistente em arquivo CSV. | [Abrir Arquivo](Projeto_Obrigatorio) |
 
 ## 🎯 Objetivos Atendidos (Avaliação A1)
 
