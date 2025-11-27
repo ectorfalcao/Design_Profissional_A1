@@ -54,8 +54,7 @@ O script já popula o banco com um cenário de teste:
     *   Professor "Maria" (TI) dando aula para ADS.
     *   Professor "Mario" (Saúde) dando aula para Medicina.
 
-## ⚠️ Observações Técnicas
-*   **Datas:** Formato ISO (`YYYY-MM-DD`).
+## ⚠️ Observação Técnicas
 *   **Integridade Referencial:** A ordem de criação das tabelas e inserção dos dados foi estritamente planejada para não violar as chaves estrangeiras (primeiro cria a `instituicao`, depois `pessoa`, depois `aluno`, etc.).
 
 ---
