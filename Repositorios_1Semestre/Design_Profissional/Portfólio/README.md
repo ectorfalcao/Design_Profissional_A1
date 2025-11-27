@@ -14,9 +14,9 @@ Abaixo estão os detalhes de cada arquivo anexado neste diretório:
 
 | Documento | Tipo | Descrição e Contexto | Acesso |
 | :--- | :---: | :--- | :---: |
-| **Currículo Profissional** | `.pdf` | Elaborado em **LaTeX**. Destaca minha graduação em ADS no UDF, inglês avançado e competências em Python e Pesquisa. | [Abrir Arquivo]() |
-| **Certificado de Evento** | `.pdf` | Participação na **7ª Mostra de Tecnologia Brasília Mais TI** (Ago/2025). Evento focado em tendências regionais e networking. | [Abrir Arquivo]() |
-| **Relato de Candidatura** | `.pdf` | Evidência de inscrição em processo seletivo para vaga de estágio na área de Tecnologia (via Microsoft Forms). | [Abrir Arquivo]() |
+| **Currículo Profissional** | `.pdf` | Elaborado em **LaTeX**. Destaca minha graduação em ADS no UDF, inglês avançado e competências em Python e Pesquisa. | [Abrir Arquivo](Cerfiticado_Evento.pdf) |
+| **Certificado de Evento** | `.pdf` | Participação na **7ª Mostra de Tecnologia Brasília Mais TI** (Ago/2025). Evento focado em tendências regionais e networking. | [Abrir Arquivo](Currículo_LaTex_E_Falcao.pdf) |
+| **Relato de Candidatura** | `.pdf` | Evidência de inscrição em processo seletivo para vaga de estágio na área de Tecnologia (via Microsoft Forms). | [Abrir Arquivo](Relato_Processo_Seletivo.pdf) |
 
 ## 🎯 Objetivos Atendidos (Avaliação A1)
 
