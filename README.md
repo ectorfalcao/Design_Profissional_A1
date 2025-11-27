@@ -45,7 +45,7 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
 
 ## 🗂 Estrutura de Arquivos
 
-Os documentos requeridos no checklist de entregáveis foram reorganizados em [Portfólio](./Repositorios_1Semestre/Design_Profissional/Portfólio) dentro de [Design_Profissional](./Repositorios_1Semestre/Design_Profissional). Fora isto, a organização deste repositório segue a estrutura hierárquica abaixo:
+Os documentos requeridos no checklist de entregáveis foram reorganizados em [Portfólio](./Repositorios_1Semestre/Design_Profissional/Portfólio) dentro de [Design_Profissional](./Repositorios_1Semestre/Design_Profissional). Fora isto, a organização deste repositório segue a estrutura hierárquica abaixo (**SUGERIDA** no enunciado):
 
 ```text
 DesignProfissional_A1
