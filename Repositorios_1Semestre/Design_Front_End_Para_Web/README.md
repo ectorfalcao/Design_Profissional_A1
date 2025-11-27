@@ -48,7 +48,7 @@ Abaixo estão os principais projetos práticos desenvolvidos:
 | **Landing Page Parallax** | Materialize, jQuery, Grid System | [📂 Ver Projeto](./Projeto_Materialize_Parallax) |
 | **Layout Responsivo** | CSS Flexbox, Media Queries | [📂 Ver Projeto](./Projeto_Layout_Flexbox) |
 | **Calculadora Soma** | JavaScript, Lógica, DOM | [📂 Ver Projeto](./Projeto_Calculadora_Soma) |
-| **Lâmpada Interativa** | JavaScript (Eventos de Click) | [📂 Ver Projeto](./Projeto_Lampada_JS) |
+| **Lâmpada Interativa** | JavaScript (Eventos de Click) | [📂 Ver Projeto](./Intro_DOM_JS) |
 | **Formulários Web** | Inputs HTML5, Upload, Selects | [📂 Ver Projeto](./Projeto_Formularios_Web) |
 | **Image Map (Navegação)** | Mapeamento de Coordenadas | [📂 Ver Projeto](./Projeto_ImageMap) |
 
