@@ -33,43 +33,18 @@ Aqui estão reunidas evidências de engajamento com o mercado (processos seletiv
 
 Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Unidade Curricular.
 
-### 🎨 Desenvolvimento Front End para Web
-> *Foco: HTML5, CSS3, Flexbox, Responsividade e Frameworks.*
-
-*   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Design_Front_End_Para_Web)
-    *   **Destaques:**
-        *   ✨ **Landing Page Parallax:** Site completo usando Framework Materialize.
-        *   📱 **Layout Flexbox:** Estrutura responsiva (Mobile/Desktop).
-        *   🗺️ **Image Map:** Navegação interativa por mapeamento de imagem.
-        *   💡 **DOM com JS:** Interatividade (Lâmpada On/Off).
-
-### 🗄️ Modelagem de Banco de Dados
-> *Foco: MER, Normalização, SQL e brModelo.*
-
-*   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Modelagem_BancoDados)
-    *   **Destaques:**
-        *   🎓 **Sistema de Gestão Acadêmica:** Modelagem completa (Conceitual, Lógica e Física/SQL).
-
-### 🔢 Algoritmos e Pensamento Computacional
-> *Foco: Lógica de programação, C, Estrutura de dados e Complexidade.*
-
-*   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Algoritmos)
-    *   **Destaques:**
-        *   🧮 **Calculadora Científica:** Aplicação modular em C com persistência em CSV.
-        *   📉 **Análise Bubble Sort:** Estudo de complexidade e tempo de CPU.
-
-### 🗣️ Design Profissional
-> *Foco: Escrita técnica, ética e profissionalismo.*
-
-*   [📂 **Acessar Repositório da Matéria**](./Repositorios_1Semestre/Design_Profissional)
-    *   **Destaques:**
-        *   ♻️ **Infográfico Green IT:** Estudo sobre lixo eletrônico.
+| Matéria | Descrição e Foco | Destaques do Semestre | Acesso |
+| :--- | :--- | :--- | :---: |
+| **Desenvolvimento Front End** | Foco em HTML5, CSS3, Flexbox, Responsividade e Frameworks modernos. | ✨ Landing Page Parallax (Materialize)<br>📱 Layout Flexbox Mobile-First<br>💡 Interatividade DOM com JS | [📂 Abrir](./Repositorios_1Semestre/Design_Front_End_Para_Web) |
+| **Modelagem de Banco de Dados** | Engenharia de dados: MER, Normalização, SQL e brModelo. | 🎓 Sistema de Gestão Acadêmica<br>🗃️ Modelagem Conceitual, Lógica e Física | [📂 Abrir](./Repositorios_1Semestre/Modelagem_BancoDados) |
+| **Algoritmos e Pensamento Computacional** | Lógica de programação, C, Estrutura de dados e Complexidade de Algoritmos. | 🧮 Calculadora Científica (Structs/CSV)<br>📉 Análise de Performance Bubble Sort | [📂 Abrir](./Repositorios_1Semestre/Algoritmos) |
+| **Design Profissional** | Escrita técnica, ética, sustentabilidade e profissionalismo em TI. | ♻️ Infográfico Green IT (Lixo Eletrônico)<br>💼 Portfólio Estruturado | [📂 Abrir](./Repositorios_1Semestre/Design_Profissional) |
 
 ---
 
 ## 🗂 Estrutura de Arquivos
 
-A organização deste repositório segue a estrutura hierárquica abaixo, conforme enunciado (corrigindo os nomes das matérias):
+A organização deste repositório segue a estrutura hierárquica abaixo:
 
 ```text
 DesignProfissional_A1
@@ -86,34 +61,42 @@ DesignProfissional_A1
 └── README.md                      # Este arquivo
 ```
 # 🛠 Stack Tecnológico
-
 Ferramentas, linguagens e plataformas utilizadas durante o desenvolvimento dos projetos e deste portfólio:
 
-### Linguagens e Banco de Dados
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+Linguagens e Banco de Dados
+![alt text](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-### Documentação e Design
-![LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![Mermaid](https://img.shields.io/badge/Mermaid_JS-ff69b4?style=for-the-badge&logo=mermaid&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
+![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-### Ferramentas e Controle de Versão
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![alt text](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![alt text](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![alt text](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![alt text](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+Documentação e Design
+
+![alt text](https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white)
+
+![alt text](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
+![alt text](https://img.shields.io/badge/Mermaid_JS-ff69b4?style=for-the-badge&logo=mermaid&logoColor=white)
+
+![alt text](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
+
+Ferramentas e Controle de Versão
+
+![alt text](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+![alt text](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 # 📞 Contato
-
 Estou à disposição para conexões profissionais e acadêmicas:
-
 <a href="https://www.linkedin.com/in/ector-falcão-353a09382" target="_blank">
 <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-
 <a href="mailto:ector_100@hotmail.com" target="_blank">
 <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
