@@ -44,9 +44,11 @@ for(i = 0; i < 8; i++){
 }
 ````
 # 🛠️ Tecnologias Utilizadas
-* Linguagem C
-* Biblioteca <time.h>: Fundamental para a medição de ciclos de clock (CLOCKS_PER_SEC).
-* Biblioteca <string.h>: Para manipulação básica do vetor de caracteres.
+![Language](https://img.shields.io/badge/Linguagem-C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Stdio](https://img.shields.io/badge/stdio.h-I%2FO-gray?style=for-the-badge)
+![Time](https://img.shields.io/badge/time.h-Benchmark-gray?style=for-the-badge)
+![String](https://img.shields.io/badge/string.h-Texto-gray?style=for-the-badge)
+
 # 🚀 Como Compilar e Executar
 * Baixe o arquivo main.c.
 * Abra o terminal na pasta.
