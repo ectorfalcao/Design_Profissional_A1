@@ -53,9 +53,10 @@ for(i = 0; i < 8; i++){
 * Baixe o arquivo main.c.
 * Abra o terminal na pasta.
 * Compilar:
-* code
-* Bash
-* gcc main.c -o bubblesort
+```code C
+Bash
+gcc main.c -o bubblesort
+```
 * Executar:
 * Windows: bubblesort.exe
 * Linux/Mac: ./bubblesort
