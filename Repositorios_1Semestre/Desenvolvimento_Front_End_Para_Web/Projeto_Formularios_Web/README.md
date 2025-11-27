@@ -50,13 +50,16 @@ multipart/form-data: Necessário sempre que houver upload de arquivos (input typ
 ```
 # Layout em Tabela
 * Neste exemplo, utilizou-se a tag <table> para alinhar os rótulos (labels) e os campos (inputs) de forma organizada visualmente.
-# 🛠️ Tecnologias Utilizadas
-![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+# 🛠️ Tecnologias Utilizadas
+
+![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![alt text](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 # 🚀 Como Executar
 * Baixe a pasta do projeto.
 * Certifique-se de ter uma imagem chamada botaook.png na pasta imagens (ou o ícone de imagem quebrada aparecerá).
 * Abra o arquivo index.html no navegador.
 * Interaja com os campos: digite textos, selecione opções e teste os botões.
+
 # Desenvolvido por Ector Falcão
