@@ -173,9 +173,8 @@ O modelo destaca-se pelo uso de Generalização/Especialização e relacionament
 * Alocação de Salas: Cada turma é alocada em uma sala, que por sua vez possui um tipo específico, garantindo que aulas de laboratório não ocorram em salas comuns.
 * Cargos e Salários: Os salários não estão atrelados diretamente ao funcionário, mas sim ao Cargo, facilitando atualizações salariais em massa.
 # 🛠️ Tecnologias Utilizadas
-* ![alt text](https://img.shields.io/badge/Modelagem-brModelo-blue?style=for-the-badge)
-
-* ![alt text](https://img.shields.io/badge/Banco_de_Dados-Conceitual-orange?style=for-the-badge)
+![alt text](https://img.shields.io/badge/Modelagem-brModelo-blue?style=for-the-badge)
+![alt text](https://img.shields.io/badge/Banco_de_Dados-Conceitual-orange?style=for-the-badge)
 # 🚀 Como Abrir e Editar
 * Para visualizar a imagem, basta acessar este repositório.
 * Para editar a estrutura lógica, é necessário possuir o arquivo .brM3 (caso disponível) e utilizar o software brModelo 3.0.
