@@ -83,4 +83,8 @@ Para desenvolver este código, segui o seguinte raciocínio:
 ```
 * Para Executar:
 * Windows: media.exe
+```code
 * Linux/Mac: ./media
+```
+
+# Desenvolvido por Ector Falcão
