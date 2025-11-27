@@ -1,12 +1,63 @@
 # 💻 Algoritmos e Pensamento Computacional
 
-**Semestre:** 1º  
-**Tecnologias:** C
+![Language](https://img.shields.io/badge/Linguagem-C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Focus](https://img.shields.io/badge/Foco-Lógica_e_Estruturas-green?style=for-the-badge)
+![Semestre](https://img.shields.io/badge/Semestre-1º-blueviolet?style=for-the-badge)
 
 ## 📝 Descrição da Disciplina
-Nesta disciplina, estudamos lógica de programação, estruturas de decisão (if/else), laços de repetição (for/while) e vetores.
+Nesta disciplina, foram construídos os fundamentos da Ciência da Computação. O foco não foi apenas escrever código, mas compreender como o computador processa dados, gerencia memória e executa algoritmos complexos.
+
+Os estudos avançaram desde a lógica básica (estruturas condicionais e laços) até conceitos avançados de engenharia de software, como **modularização**, **alocação dinâmica de memória**, **manipulação de arquivos** e **complexidade de algoritmos**.
+
+---
+
+## 🛠 Stack Tecnológico
+
+Ferramentas e bibliotecas dominadas durante o desenvolvimento dos projetos desta disciplina:
+
+### Linguagem e Compilação
+![C](https://img.shields.io/badge/C_(Standard_99)-00599C?style=for-the-badge&logo=c&logoColor=white)
+![GCC](https://img.shields.io/badge/GCC_Compiler-D22128?style=for-the-badge&logo=gnu&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+### Bibliotecas do C Utilizadas
+![Stdio](https://img.shields.io/badge/stdio.h-I%2FO-gray?style=for-the-badge)
+![Stdlib](https://img.shields.io/badge/stdlib.h-Memória-gray?style=for-the-badge)
+![Math](https://img.shields.io/badge/math.h-Cálculos-gray?style=for-the-badge)
+![String](https://img.shields.io/badge/string.h-Texto-gray?style=for-the-badge)
+![Time](https://img.shields.io/badge/time.h-Benchmark-gray?style=for-the-badge)
+
+### Conceitos Aplicados
+![Structs](https://img.shields.io/badge/Structs-Dados_Estruturados-orange?style=for-the-badge)
+![Pointers](https://img.shields.io/badge/Pointers-Alocação_Dinâmica-red?style=for-the-badge)
+![File System](https://img.shields.io/badge/File_System-Persistência_CSV-blue?style=for-the-badge)
+![Algorithms](https://img.shields.io/badge/Algorithms-Bubble_Sort-yellow?style=for-the-badge)
+
+---
 
 ## 📂 Projetos e Atividades
-*   **Calculadora Simples:** Script para operações básicas.
-*   **Média de Notas:** Algoritmo para calcular aprovação de alunos.
-*   **Métodos de Ordenação:** Atividade exemplificando ordenação utilizando RGM.
+
+Abaixo estão os principais softwares desenvolvidos:
+
+### 1. [🧮 Calculadora Científica Modular](./Bubble_Sort)
+> **Destaque do Semestre.** Um sistema robusto que vai além de cálculos simples.
+*   **Funcionalidades:** 27 operações (incluindo Matrizes e Bhaskara).
+*   **Técnica:** Uso de **Structs** para logs, **Malloc** para arrays dinâmicos e **Persistência em CSV** para salvar o histórico.
+
+### 2. [📉 Análise de Algoritmos (Bubble Sort)](./Bubble_Sort)
+> Estudo de performance e complexidade.
+*   **Funcionalidades:** Ordenação de RGM.
+*   **Técnica:** Uso de `clock()` da biblioteca `<time.h>` para medir o tempo de CPU e contagem de passos (Swaps) para análise de eficiência $O(N^2)$.
+
+### 3. [🎓 Cálculo de Média Escolar](./media)
+> Introdução à lógica condicional.
+*   **Funcionalidades:** Cálculo de média aritmética e verificação de status (Aprovado/Reprovado).
+*   **Técnica:** Estruturas de decisão `if/else` e tipagem `float`.
+
+---
+
+## 🧠 Aprendizados Chave
+
+*   **Gerenciamento de Memória:** Diferença entre Stack e Heap, e como usar `malloc` e `free` para otimizar recursos.
+*   **Persistência:** Como programas podem "lembrar" de dados após serem fechados, manipulando arquivos de texto/CSV.
+*   **Engenharia de Software:** A importância de dividir um problema grande (Main) em pequenas funções reutilizáveis (Modularização/Refatoração).
