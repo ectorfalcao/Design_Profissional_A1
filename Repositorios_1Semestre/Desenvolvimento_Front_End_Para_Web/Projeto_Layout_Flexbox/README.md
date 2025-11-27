@@ -45,12 +45,15 @@ CSS
 ```
 # Compatibilidade (Cross-Browser):
 * O código inclui prefixos como -webkit- e -ms- para garantir que o layout funcione corretamente até mesmo em navegadores mais antigos (Chrome antigo, Safari, IE10).
-# 🛠️ Tecnologias Utilizadas
-![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+# 🛠️ Tecnologias Utilizadas
+
+![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![alt text](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 # 🚀 Como Executar
 * Baixe a pasta do projeto.
 * Abra o arquivo index.html no navegador.
 * Teste a responsividade: Redimensione a janela do seu navegador (estreite-a) e observe como o menu lateral "pula" para cima do conteúdo principal quando a janela fica pequena.
+
 # Desenvolvido por Ector Falcão
