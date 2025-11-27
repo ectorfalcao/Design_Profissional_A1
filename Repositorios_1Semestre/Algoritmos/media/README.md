@@ -3,7 +3,7 @@
 > **Status:** ✔️ Concluído
 
 ## 📄 Sobre o Projeto
-Este é um algoritmo desenvolvido na disciplina de **Algoritmos e Programação**. O objetivo foi criar um programa em **Linguagem C** capaz de receber as notas de um aluno, calcular a média aritmética e determinar sua situação acadêmica.
+Este é um algoritmo desenvolvido na disciplina de **Algoritmos e Pensamento Computacional**. O objetivo foi criar um programa em **Linguagem C** capaz de receber as notas de um aluno, calcular a média aritmética e determinar sua situação acadêmica.
 
 Este projeto serviu para fixar os conceitos de **declaração de variáveis**, **tipos de dados (float)**, **entrada/saída (scanf/printf)** e **estruturas condicionais**.
 
