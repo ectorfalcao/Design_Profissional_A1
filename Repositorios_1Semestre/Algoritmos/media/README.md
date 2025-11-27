@@ -58,26 +58,28 @@ int main() {
     return 0;
 }
 ```
-🧠 Fluxograma Lógico
-Para desenvolver este código, segui o seguinte raciocínio:
-Início (Função main)
-Declarar variáveis do tipo Real (float).
-Ler Nota 1 e Nota 2 (scanf).
-Calcular Média e armazenar na variável.
-Se Média >= 7 -> Imprimir "Aprovado".
-Senão Se Média >= 5 -> Imprimir "Recuperação".
-Senão -> Imprimir "Reprovado".
-Fim (return 0).
+# 🧠 Fluxograma Lógico
 
-🚀 Como Compilar e Executar
-Como a linguagem C é compilada, você precisa transformar o código fonte em um executável.
-Certifique-se de ter um compilador (como GCC) instalado.
-Baixe o arquivo main.c deste repositório.
-Abra o terminal na pasta do arquivo.
-Para Compilar:
-code
-Bash
-gcc main.c -o media
-Para Executar:
-Windows: media.exe
-Linux/Mac: ./media
+Para desenvolver este código, segui o seguinte raciocínio:
+
+* Início (Função main)
+* Declarar variáveis do tipo Real (float).
+* Ler Nota 1 e Nota 2 (scanf).
+* Calcular Média e armazenar na variável.
+* Se Média >= 7 -> Imprimir "Aprovado".
+* Senão Se Média >= 5 -> Imprimir "Recuperação".
+* Senão -> Imprimir "Reprovado".
+* Fim (return 0).
+
+# 🚀 Como Compilar e Executar
+* Como a linguagem C é compilada, você precisa transformar o código fonte em um executável.
+* Certifique-se de ter um compilador (como GCC) instalado.
+* Baixe o arquivo main.c deste repositório.
+* Abra o terminal na pasta do arquivo.
+* Para Compilar:
+* code
+* Bash
+* gcc main.c -o media
+* Para Executar:
+* Windows: media.exe
+* Linux/Mac: ./media
