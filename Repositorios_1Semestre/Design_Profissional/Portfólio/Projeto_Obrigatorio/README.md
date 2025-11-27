@@ -78,4 +78,4 @@ gcc main.c -o calculadora_portfolio -lm
 ```
 Ao executar, o programa criará automaticamente o arquivo historico.csv na mesma pasta.
 
-Desenvolvido por Ector Carvalho Alves Falcão
+Desenvolvido por Ector Carvalho Alves Falcão, Erick Bruno, Leonardo Teles, Talisom Izidoro.
