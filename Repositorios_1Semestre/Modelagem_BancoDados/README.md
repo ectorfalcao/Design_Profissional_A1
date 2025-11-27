@@ -45,10 +45,7 @@ Abaixo estão as principais entregas desenvolvidas:
 
 | Atividade | Descrição | Acesso |
 | :--- | :--- | :---: |
-| **Cidade Inteligente** | Projeto colaborativo da turma. Meu grupo ficou responsável pelo setor de **Educação/Gestão Acadêmica**, criando desde o diagrama conceitual até o script físico em SQL.
-| [📂 Ver Diagrama](./Modelo_Conceitual) | 
-| [📂 Ver Modelo Lógico](./Modelo_Logico)|
-| [📂 Ver SQL](./Modelo_Fisico)          |
+| **Cidade Inteligente** | Projeto colaborativo da turma. Meu grupo ficou responsável pelo setor de **Educação/Gestão Acadêmica**, criando desde o diagrama conceitual até o script físico em SQL.| [📂 Ver Diagrama](./Modelo_Conceitual) [📂 Ver Modelo Lógico](./Modelo_Logico) [📂 Ver SQL](./Modelo_Fisico)          |
 | **Normalização** | Exercícios práticos de otimização de tabelas despadronizadas, transformando planilhas "flat" em bancos relacionais. | *Exercício em Aula* |
 
 ---
