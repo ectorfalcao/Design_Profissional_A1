@@ -67,7 +67,7 @@ DesignProfissional_A1
 ├── Relato_Processo_Seletivo.pdf   # Comprovante de inscrição em vaga
 ├── Portfolio/                     # Apresentação pessoal e objetivos
 │   └── README.md
-├── Repositorios_1Semestre/        # Projetos Técnicos
+├── Disciplinass_1Semestre/        # Projetos Técnicos
 │   ├── Algoritmos/                # Projetos em C
 │   ├── Design_Front_End_Para_Web/ # Projetos HTML/CSS/JS
 │   ├── Modelagem_BancoDados/      # Diagramas e SQL
