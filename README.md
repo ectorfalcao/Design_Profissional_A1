@@ -36,10 +36,10 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
 
 | Matéria | Descrição e Foco | Destaques do Semestre | Acesso |
 | :--- | :--- | :--- | :---: |
-| **Desenvolvimento Front End** | Foco em HTML5, CSS3, Flexbox, Responsividade e Frameworks modernos. | ✨ Landing Page Parallax (Materialize)<br>📱 Layout Flexbox Mobile-First<br>💡 Interatividade DOM com JS | [📂 Abrir](./Repositorios_1Semestre/Desenvolvimento_Front_End_Para_Web) |
-| **Modelagem de Banco de Dados** | Engenharia de dados: MER, Normalização, SQL e brModelo. | 🎓 Sistema de Gestão Acadêmica<br>🗃️ Modelagem Conceitual, Lógica e Física | [📂 Abrir](./Repositorios_1Semestre/Modelagem_BancoDados) |
-| **Algoritmos e Pensamento Computacional** | Lógica de programação, C, Estrutura de dados e Complexidade de Algoritmos. | 🧮 Calculadora Científica (Structs/CSV)<br>📉 Análise de Performance Bubble Sort | [📂 Abrir](./Repositorios_1Semestre/Algoritmos) |
-| **Design Profissional** | Escrita técnica, ética, sustentabilidade e profissionalismo em TI. | ♻️ Infográfico Green IT (Lixo Eletrônico)<br>💼 Portfólio Estruturado | [📂 Abrir](./Repositorios_1Semestre/Design_Profissional) |
+| **Desenvolvimento Front End** | Foco em HTML5, CSS3, Flexbox, Responsividade e Frameworks modernos. | ✨ Landing Page Parallax (Materialize)<br>📱 Layout Flexbox Mobile-First<br>💡 Interatividade DOM com JS | [📂 Abrir](./Disciplinas_1Semestre/Desenvolvimento_Front_End_Para_Web) |
+| **Modelagem de Banco de Dados** | Engenharia de dados: MER, Normalização, SQL e brModelo. | 🎓 Sistema de Gestão Acadêmica<br>🗃️ Modelagem Conceitual, Lógica e Física | [📂 Abrir](./Disciplinas_1Semestree/Modelagem_BancoDados) |
+| **Algoritmos e Pensamento Computacional** | Lógica de programação, C, Estrutura de dados e Complexidade de Algoritmos. | 🧮 Calculadora Científica (Structs/CSV)<br>📉 Análise de Performance Bubble Sort | [📂 Abrir](./Disciplinas_1Semestre/Algoritmos) |
+| **Design Profissional** | Escrita técnica, ética, sustentabilidade e profissionalismo em TI. | ♻️ Infográfico Green IT (Lixo Eletrônico)<br>💼 Portfólio Estruturado | [📂 Abrir](./Disciplinas_1Semestre/Design_Profissional) |
 
 ---
 
