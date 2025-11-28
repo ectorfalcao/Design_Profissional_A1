@@ -43,10 +43,8 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
 
 ---
 
-## 💻 Projetos e Disciplinas do 1º Semestre 
-```diff
-+ (repositórios individuais)
-```
+## 💻 Projetos e Disciplinas do 1º Semestre (repositórios individuais)
+
 Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Unidade Curricular.
 
 | Matéria | Descrição e Foco | Destaques do Semestre | Acesso |
