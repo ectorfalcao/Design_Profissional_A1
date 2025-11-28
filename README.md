@@ -30,7 +30,7 @@ Aqui estão reunidas evidências de engajamento com o mercado (processos seletiv
 
 ---
 
-## 💻 Projetos e Disciplinas do 1º Semestre $\color{red}(Pastas Neste Repositório)}}$ ##
+## 💻 Projetos e Disciplinas do 1º Semestre $\color{red}{\text{(Pastas Neste Repositório)}}$ ##
 
 Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Unidade Curricular.
 
