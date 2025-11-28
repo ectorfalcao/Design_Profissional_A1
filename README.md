@@ -22,10 +22,10 @@ Aqui estão reunidas evidências de engajamento com o mercado (processos seletiv
 
 | Item | Descrição | Status | Acesso Rápido |
 | :--- | :--- | :---: | :--- |
-| **1. Processo Seletivo** | Evidência de candidatura para estágio/trainee. | ✔️ | [📄 Ver Evidência](./Repositorios_1Semestre/Design_Profissional/Portfólio/Relato_Processo_Seletivo.pdf) |
-| **2. Evento Acadêmico** | Certificado de participação em evento de TI. | ✔️ | [📄 Ver Certificado](./Repositorios_1Semestre/Design_Profissional/Portfólio/Cerfiticado_Evento.pdf) |
-| **3. Currículo** | Currículo profissional desenvolvido em **LaTeX**. | ✔️ | [📄 Ver Currículo](./Repositorios_1Semestre/Design_Profissional/Portfólio/Currículo_LaTex_E_Falcao.pdf) |
-| **4. Portfólio** | Portfólio com pelo menos 1 projeto. | ✔️ | [📄 Ver Portfólio](./Repositorios_1Semestre/Design_Profissional/Portfólio) |
+| **1. Processo Seletivo** | Evidência de candidatura para estágio/trainee. | ✔️ | [📄 Ver Evidência](./Disciplinas_1Semestre/Design_Profissional/Portfólio/Relato_Processo_Seletivo.pdf) |
+| **2. Evento Acadêmico** | Certificado de participação em evento de TI. | ✔️ | [📄 Ver Certificado](./Disciplinas_1Semestre/Design_Profissional/Portfólio/Cerfiticado_Evento.pdf) |
+| **3. Currículo** | Currículo profissional desenvolvido em **LaTeX**. | ✔️ | [📄 Ver Currículo](./Disciplinas_1Semestre/Design_Profissional/Portfólio/Currículo_LaTex_E_Falcao.pdf) |
+| **4. Portfólio** | Portfólio com pelo menos 1 projeto. | ✔️ | [📄 Ver Portfólio](./Disciplinas_1Semestre/Design_Profissional/Portfólio) |
 | **5. Projetos Técnicos** | Códigos e atividades das disciplinas do semestre. | ✔️ | *Ver seção abaixo* |
 
 ---
