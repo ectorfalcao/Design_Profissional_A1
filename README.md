@@ -43,20 +43,6 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
 
 ---
 
-## 💻 Projetos e Disciplinas do 1º Semestre $\color{red}{\text{(Repositorios Individuais)}}$ ##
-
-Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Unidade Curricular.
-
-| Matéria | Descrição e Foco | Destaques do Semestre | Acesso |
-| :--- | :--- | :--- | :---: |
-| **Desenvolvimento Front End** | Foco em HTML5, CSS3, Flexbox, Responsividade e Frameworks modernos. | ✨ Landing Page Parallax (Materialize)<br>📱 Layout Flexbox Mobile-First<br>💡 Interatividade DOM com JS | [📂 Abrir](https://github.com/ectorfalcao/Desenvolvimento_Front_End_Para_Web.git) |
-| **Modelagem de Banco de Dados** | Engenharia de dados: MER, Normalização, SQL e brModelo. | 🎓 Sistema de Gestão Acadêmica<br>🗃️ Modelagem Conceitual, Lógica e Física | [📂 Abrir](https://github.com/ectorfalcao/Modelagem_de_Banco_de_Dados.git) |
-| **Algoritmos e Pensamento Computacional** | Lógica de programação, C, Estrutura de dados e Complexidade de Algoritmos. | 🧮 Calculadora Científica (Structs/CSV)<br>📉 Análise de Performance Bubble Sort | [📂 Abrir](https://github.com/ectorfalcao/Algoritmos.git) |
-| **Design Profissional** | Escrita técnica, ética, sustentabilidade e profissionalismo em TI. | ♻️ Infográfico Green IT (Lixo Eletrônico)<br>💼 Portfólio Estruturado | [📂 Abrir](https://github.com/ectorfalcao/Design_Profissional.git) |
-| **Portfólio** | Portfólio obrigatório na realização da atividade | Contém README próprio e um projeto, a Calculadora Científica Avançada | [📂 Abrir](https://github.com/ectorfalcao/Portfolio.git) |
-
----
-
 ## 🗂 Estrutura de Arquivos
 
 Os documentos requeridos no checklist de entregáveis foram reorganizados em [Portfólio](./Repositorios_1Semestre/Design_Profissional/Portfólio) dentro de [Design_Profissional](./Repositorios_1Semestre/Design_Profissional). Fora isto, a organização deste repositório segue a estrutura hierárquica abaixo (**SUGERIDA** no enunciado):
