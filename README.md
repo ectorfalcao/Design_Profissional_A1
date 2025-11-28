@@ -53,6 +53,7 @@ Abaixo está o índice dos projetos técnicos desenvolvidos, organizados por Uni
 | **Modelagem de Banco de Dados** | Engenharia de dados: MER, Normalização, SQL e brModelo. | 🎓 Sistema de Gestão Acadêmica<br>🗃️ Modelagem Conceitual, Lógica e Física | [📂 Abrir](https://github.com/ectorfalcao/Modelagem_de_Banco_de_Dados.git) |
 | **Algoritmos e Pensamento Computacional** | Lógica de programação, C, Estrutura de dados e Complexidade de Algoritmos. | 🧮 Calculadora Científica (Structs/CSV)<br>📉 Análise de Performance Bubble Sort | [📂 Abrir](https://github.com/ectorfalcao/Algoritmos.git) |
 | **Design Profissional** | Escrita técnica, ética, sustentabilidade e profissionalismo em TI. | ♻️ Infográfico Green IT (Lixo Eletrônico)<br>💼 Portfólio Estruturado | [📂 Abrir](https://github.com/ectorfalcao/Design_Profissional.git) |
+| **Portfólio** | Portfólio obrigatório na realização da atividade | Contém README próprio e um projeto, a Calculadora Científica Avançada | [📂 Abrir](https://github.com/ectorfalcao/Portfolio.git) |
 
 ---
 
